@@ -513,22 +513,22 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
-}
-
-.text-blue-600 {
-  --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity));
-}
-
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+.text-brightRed {
+  --tw-text-opacity: 1;
+  color: hsl(12 88% 59% / var(--tw-text-opacity));
+}
+
+.text-veryDarkBlue {
+  --tw-text-opacity: 1;
+  color: hsl(233 12% 13% / var(--tw-text-opacity));
+}
+
+.text-veryPaleRed {
+  --tw-text-opacity: 1;
+  color: hsl(13 100% 96% / var(--tw-text-opacity));
 }
